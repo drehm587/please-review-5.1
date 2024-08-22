@@ -1,0 +1,40 @@
+/* set the page to be black*/
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+}
+/* set the message to have the bright green color and the font to match a "hacker style"*/
+.message 
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: #00FF00;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #00FF00;
+    overflow: hidden;
+    max-width: 90%;
+}
+/* used for the function that reveals the message after a successful submission of user input*/
+.message span 
+{
+    visibility: hidden;
+    display: inline-block;
+}
+/* matches the font color and styling to the rest of the page and the overall theme of a "secret agent mission"*/
+form
+{
+   position: absolute;
+   top: 200px;
+   left: 0;
+   right: 0;
+    color: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+    border: #00FF00;
+}

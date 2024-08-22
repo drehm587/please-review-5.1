@@ -1,0 +1,50 @@
+<!--David Rehm-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Agent</title>
+    <script src ="js user input.js"></script>
+    <link href = "style user input.css" rel="stylesheet" type = "text/css"/>
+</head>
+<body> <!-- create a div tag to make my message and also tie it into the JS file for added animation; I wanted to try out animation on this project-->
+    <div id="secret-message" class="message">
+        <h1>Agent, input your mailing addess for upcoming mission details! </h1> 
+    </div>
+    <br><br><br><br><br> <!-- below creates the form fields for the user to input the requested data-->
+    <form id = "loginSubmit" onsubmit="return false">
+        House Number: <input type = "number" id = "hnum"/>
+        <br>
+        Street: <input type = "text" id = "Street"/>
+        <br>
+        City: <input type = "text" id = "City"/>
+        <br>
+        State: <input type = "text" id = "State"/>
+        <br>
+        Zip Code: <input type = "number" id = "zip"/>
+        <input type = "submit" onclick = "checkCreds();"/>
+
+        <p id = "loginStatus" >Status of login</p> <!-- this provides the messages of the login status and if there are any errors the user makes while inputting data-->
+
+    </form>
+
+    <br><br><br><br><br>
+
+    <audio controls>
+        <source src = "Agent Details.mp3" type="audio/mp3"></source>
+    </audio>
+
+
+   
+</body>
+
+<!--put in the two buttons with associated functions to start and stop-->
+<footer>
+    <button>
+        <button id = "startDetails" onclick = "Details()";>Play additional details</button>
+        <button id = "stopDetails" onclick = "stopDetails()";>Stop additional details</button>
+       </button>
+</footer>
+</html>

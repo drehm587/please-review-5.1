@@ -1,0 +1,46 @@
+body
+{
+    background-image: url("index\ background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+footer
+{
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+h1
+{
+    font-family: 'Old English Text MT', 'Lucida Blackletter', 'Gothic', serif;
+    color: whitesmoke;
+    text-align: center;
+    size: 54px;
+}
+
+button
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    font-family: 'Old English Text MT', 'Lucida Blackletter', 'Gothic', serif;
+}

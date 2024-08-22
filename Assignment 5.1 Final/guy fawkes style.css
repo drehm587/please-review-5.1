@@ -1,0 +1,43 @@
+body
+{
+    background-image: url("guy\ fawkes\ background\ image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+
+footer
+{
+    text-align: center;
+    position: absolute;
+    color: white;
+}
+
+h1
+{
+    font-family: 'Old English Text MT', 'Lucida Blackletter', 'Gothic', serif;
+    color: whitesmoke;
+    size: 54px;
+}
+
+button
+{
+    font-family: 'Old English Text MT', 'Lucida Blackletter', 'Gothic', serif;
+}
+
+thead
+{
+    font-family: 'Old English Text MT', 'Lucida Blackletter', 'Gothic', serif;
+}

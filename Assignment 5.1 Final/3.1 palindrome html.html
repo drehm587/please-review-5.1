@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <script src = "3.1 palindrome js.js"></script> <!--links javascript page to html page-->
+    <link href = "3.1 style sheet.css" rel="stylesheet" type = "text/css"/> <!--links css page to html page-->
+</head>
+<body>
+    <form onsubmit= "return false"> 
+       <h1>Is this a palindrome?</h1> <!--used h1 tag to set precedence for the page-->
+       <h2>What is a palindrome? It is a word that is the same spelled backwards and forwards</h2>   <!--links javascript page to html page-->
+        <input = "text" id = "userStr"/>  <!--sets the input as text with an id of userStr-->
+        <input type = "submit" onclick = "palindrome();"/>   <!--links function palindrome() to the submit-->
+        </form>
+        <p id = "palindrome"> Do you have a palindrome?</p>  <!--set palindrome as the checker; changes to display results from user input-->
+</body>
+
+
+</html>
